@@ -10,134 +10,136 @@
 </head>
 <body>
     <header>
-        <section class="intro">
-            <h1 class="page-title">Coding Quiz Challenge</h1>
-                <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            <button class="btn" id="start-quiz" type="submit">Start Quiz</button>  
-        </section>
+        <h1>View Highscores</h1>
+        <p>Time: </p>
     </header>
 
     <main class="page-content" id="page-content">
+        <section class="intro">
+            <h2 class="page-title">Coding Quiz Challenge</h2>
+                <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button class="btn" id="start-quiz" type="submit">Start Quiz</button>  
+        </section>
         <section class="question-1">
-            <h2 class="quiz-question" id="quiz-question">Commonly used data types DO NOT include:</h2>
-            <ol class="quiz-answers" id="answers">
+            <h2 class="question">Commonly used data types DO NOT include:</h2>
+            <ol class="answers">
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         1. strings
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">    
+                    <button class="btn" type="click">    
                         2. booleans
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         3. alerts
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         4. numbers
                     </button>
                 </li>
             </ol>
         </section>
         <section class="question-2">
-            <h2 class="quiz-question" id="quiz-question">The condition in an if / else statement is enclosed within _____.</h2>
-            <ol class="quiz-answers" id="answers">
+            <h2 class="question">The condition in an if / else statement is enclosed within _____.</h2>
+            <ol class="answers"
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         1. quotes
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">    
+                    <button class="btn" type="click">    
                         2. curly brackets
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         3. parentheses
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         4. square brackets
                     </button>
                 </li>
             </ol>
         </section>
         <section class="question-3">
-            <h2 class="quiz-question" id="quiz-question">Arrays in JavaScript can be used to store _____.</h2>
-            <ol class="quiz-answers" id="answers">
+            <h2 class="question">Arrays in JavaScript can be used to store _____.</h2>
+            <ol class="answers">
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         1. numbers and strings
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">    
+                    <button class="btn" type="click">    
                         2. other arrays
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         3. booleans
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         4. all of the above
                     </button>
                 </li>
             </ol>
-        </section>        
+        </section>       
         <section class="question-4">
-            <h2 class="quiz-question" id="quiz-question">String values must be enclosed within _____ when being assigned to variables.</h2>
-            <ol class="quiz-answers" id="answers">
+            <h2 class="question">String values must be enclosed within _____ when being assigned to variables.</h2>
+            <ol class="answers">
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         1. commas
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">    
+                    <button class="btn" type="click">    
                         2. curly brackets
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         3. quotes
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         4. parentheses
                     </button>
                 </li>
             </ol>
         </section>        
         <section class="question-5">
-            <h2 class="quiz-question" id="quiz-question">A very useful tool used during development and debugging for printing content to the debugger is:</h2>
-            <ol class="quiz-answers" id="answers">
+            <h2 class="question">A very useful tool used during development and debugging for printing content to the debugger is:</h2>
+            <ol class="answers">
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         1. JavaScript
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">    
+                    <button class="btn" type="click">    
                         2. terminal / bash
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         3. for loops
                     </button>
                 </li>
                 <li>
-                    <button class="btn" id="answer" type="click">
+                    <button class="btn" type="click">
                         4. console-log
                     </button>
                 </li>
@@ -150,7 +152,7 @@
                 <p>Your final score is  .</p>
                 <label for="initials">Enter initials:</label>
                 <input type="text" placeholder="" name="initials" id="initials" class="form-input" />
-                <button class="btn" id="initials" type="submit">
+                <button class="btn" id="submit" type="submit">
                     Submit
                 </button>
         </section>
